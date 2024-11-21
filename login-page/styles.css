@@ -1,0 +1,99 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; /* Plain white background */
+    margin: 0;
+    padding: 0;
+  }
+  
+  #root {
+    padding: 20px;
+  }
+  
+  /* Container Styles */
+  .min-h-screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Form Styles */
+  form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  form:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Input Styles */
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    transition: border-color 0.3s;
+  }
+  
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #4a00e0;
+    outline: none;
+  }
+  
+  /* Button Styles */
+  button {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 1rem;
+    background-color: #4a00e0;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  button:hover {
+    background-color: #8e2de2;
+    transform: translateY(-2px);
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  /* Link Styles */
+  a {
+    color: #4a00e0;
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: #8e2de2;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .hidden.lg\\:flex {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .lg\\:w-1\\/2 {
+      width: 50%;
+    }
+  }
+  
