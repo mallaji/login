@@ -97,3 +97,38 @@ body {
     }
   }
   
+/* Background Gradient */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Success Banner */
+#successBanner {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Error Messages */
+#errorMessages {
+  background: #ffe6e6;
+  padding: 10px;
+  border-left: 4px solid #e53e3e;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+/* Form Styles */
+form {
+  transition: transform 0.3s ease-in-out;
+}
+
+form:hover {
+  transform: translateY(-5px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .min-h-screen {
+    flex-direction: column;
+  }
+}
